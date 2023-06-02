@@ -1,9 +1,10 @@
 import React from 'react'
-import "../home/slide.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Divider } from '@mui/material';
-import { products } from './productdata';
+// import { products } from './productdata';
+import "./slide.css";
+
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -19,7 +20,7 @@ const responsive = {
     }
 };
 
-const Slide = ({title}) => {
+const Slide = ({title,products}) => {
     return (
         <div className="products_section">
             <div className="products_deal">
