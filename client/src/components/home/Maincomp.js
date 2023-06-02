@@ -1,7 +1,9 @@
+import { Divider } from '@mui/material'
 import React from 'react'
-import "../home/home.css";
-import Banner from "../home/Banner"
+import Banner from "./Banner"
 import Slide from './Slide';
+import "./home.css";
+
 const Maincomp = () => {
     return (
         <>
